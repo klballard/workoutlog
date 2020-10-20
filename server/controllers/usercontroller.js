@@ -6,7 +6,7 @@ var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 
 /*
-! Section 1
+! Register
 */
 
 router.post('/register', function(req,res) {
@@ -35,7 +35,7 @@ router.post('/register', function(req,res) {
 module.exports = router;
 
 /*
-! Section 2
+! Login
 */
 
     

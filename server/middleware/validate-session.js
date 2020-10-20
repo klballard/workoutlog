@@ -1,7 +1,7 @@
 var jwt = require('jsonwebtoken');
 var sequelize = require('../db');
 var User = require('../models/user')( sequelize, require('sequelize') );
-var Log = require('../models/log')(sequelize, require('sequelize') );
+//var Log = require('../models/log')(sequelize, require('sequelize') );
 
 module.exports = function(req, res, next) {
     if (req.method == 'OPTIONS') {
